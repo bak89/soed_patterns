@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: ch.bfh.due1.jdt:jdt-framework:6.1-java11">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/ch/bfh/due1/jdt/jdt-framework/6.1-java11/jdt-framework-6.1-java11.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/ch/bfh/due1/jdt/jdt-framework/6.1-java11/jdt-framework-6.1-java11-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/ch/bfh/due1/jdt/jdt-framework/6.1-java11/jdt-framework-6.1-java11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

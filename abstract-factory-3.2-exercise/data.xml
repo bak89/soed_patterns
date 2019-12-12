@@ -1,0 +1,153 @@
+<org.designpattern.abstractfactory.xml.PersistenceManagerUsingXStream_-PersistedData>
+  <persons>
+    <org.designpattern.abstractfactory.xml.PersistablePerson>
+      <name>Ian_Sommerville_81</name>
+      <reservations>
+        <org.designpattern.abstractfactory.xml.PersistableReservation>
+          <resources class="singleton-set">
+            <org.designpattern.abstractfactory.xml.PersistableResource>
+              <name>Room_35</name>
+              <reservations>
+                <org.designpattern.abstractfactory.xml.PersistableReservation reference="../../../.."/>
+              </reservations>
+            </org.designpattern.abstractfactory.xml.PersistableResource>
+          </resources>
+          <owner class="org.designpattern.abstractfactory.xml.PersistablePerson" reference="../../.."/>
+          <dr class="ch.bfh.ti.daterange.impl.pojo.DateRangeImpl">
+            <start>2019-11-21 11:48:10.982 UTC</start>
+            <finish>2019-11-21 11:49:50.982 UTC</finish>
+          </dr>
+        </org.designpattern.abstractfactory.xml.PersistableReservation>
+      </reservations>
+    </org.designpattern.abstractfactory.xml.PersistablePerson>
+    <org.designpattern.abstractfactory.xml.PersistablePerson>
+      <name>Ian_Sommerville_57</name>
+      <reservations>
+        <org.designpattern.abstractfactory.xml.PersistableReservation>
+          <resources class="singleton-set">
+            <org.designpattern.abstractfactory.xml.PersistableResource>
+              <name>Room_97</name>
+              <reservations>
+                <org.designpattern.abstractfactory.xml.PersistableReservation reference="../../../.."/>
+              </reservations>
+            </org.designpattern.abstractfactory.xml.PersistableResource>
+          </resources>
+          <owner class="org.designpattern.abstractfactory.xml.PersistablePerson" reference="../../.."/>
+          <dr class="ch.bfh.ti.daterange.impl.pojo.DateRangeImpl">
+            <start>2019-11-21 12:35:12.887 UTC</start>
+            <finish>2019-11-21 12:36:52.887 UTC</finish>
+          </dr>
+        </org.designpattern.abstractfactory.xml.PersistableReservation>
+      </reservations>
+    </org.designpattern.abstractfactory.xml.PersistablePerson>
+  </persons>
+  <resources/>
+  <reservations>
+    <org.designpattern.abstractfactory.xml.PersistableReservation>
+      <resources class="singleton-set">
+        <org.designpattern.abstractfactory.xml.PersistableResource>
+          <name>Meeting_Room_80</name>
+          <reservations>
+            <org.designpattern.abstractfactory.xml.PersistableReservation reference="../../../.."/>
+            <org.designpattern.abstractfactory.xml.PersistableReservation>
+              <resources class="singleton-set">
+                <org.designpattern.abstractfactory.xml.PersistableResource reference="../../../.."/>
+              </resources>
+              <owner class="org.designpattern.abstractfactory.xml.PersistablePerson">
+                <name>Erich_Gamma_22</name>
+                <reservations>
+                  <org.designpattern.abstractfactory.xml.PersistableReservation reference="../../../../../../.."/>
+                  <org.designpattern.abstractfactory.xml.PersistableReservation reference="../../.."/>
+                </reservations>
+              </owner>
+              <dr class="ch.bfh.ti.daterange.impl.pojo.DateRangeImpl">
+                <start>2019-11-21 11:51:31.21 UTC</start>
+                <finish>2019-11-21 11:56:31.21 UTC</finish>
+              </dr>
+            </org.designpattern.abstractfactory.xml.PersistableReservation>
+          </reservations>
+        </org.designpattern.abstractfactory.xml.PersistableResource>
+      </resources>
+      <owner class="org.designpattern.abstractfactory.xml.PersistablePerson" reference="../resources/org.designpattern.abstractfactory.xml.PersistableResource/reservations/org.designpattern.abstractfactory.xml.PersistableReservation[2]/owner"/>
+      <dr class="ch.bfh.ti.daterange.impl.pojo.DateRangeImpl">
+        <start>2019-11-21 11:48:11.21 UTC</start>
+        <finish>2019-11-21 11:49:51.21 UTC</finish>
+      </dr>
+    </org.designpattern.abstractfactory.xml.PersistableReservation>
+    <org.designpattern.abstractfactory.xml.PersistableReservation>
+      <resources class="singleton-set">
+        <org.designpattern.abstractfactory.xml.PersistableResource>
+          <name>Test_Room_2</name>
+          <reservations>
+            <org.designpattern.abstractfactory.xml.PersistableReservation reference="../../../.."/>
+          </reservations>
+        </org.designpattern.abstractfactory.xml.PersistableResource>
+      </resources>
+      <owner class="org.designpattern.abstractfactory.xml.PersistablePerson">
+        <name>Kent_Beck_84</name>
+        <reservations>
+          <org.designpattern.abstractfactory.xml.PersistableReservation reference="../../.."/>
+        </reservations>
+      </owner>
+      <dr class="ch.bfh.ti.daterange.impl.pojo.DateRangeImpl">
+        <start>2019-11-21 11:48:11.14 UTC</start>
+        <finish>2019-11-21 11:49:51.14 UTC</finish>
+      </dr>
+    </org.designpattern.abstractfactory.xml.PersistableReservation>
+    <org.designpattern.abstractfactory.xml.PersistableReservation reference="../org.designpattern.abstractfactory.xml.PersistableReservation/resources/org.designpattern.abstractfactory.xml.PersistableResource/reservations/org.designpattern.abstractfactory.xml.PersistableReservation[2]"/>
+    <org.designpattern.abstractfactory.xml.PersistableReservation>
+      <resources class="singleton-set">
+        <org.designpattern.abstractfactory.xml.PersistableResource>
+          <name>Meeting_Room_2</name>
+          <reservations>
+            <org.designpattern.abstractfactory.xml.PersistableReservation reference="../../../.."/>
+            <org.designpattern.abstractfactory.xml.PersistableReservation>
+              <resources class="singleton-set">
+                <org.designpattern.abstractfactory.xml.PersistableResource reference="../../../.."/>
+              </resources>
+              <owner class="org.designpattern.abstractfactory.xml.PersistablePerson">
+                <name>Erich_Gamma_60</name>
+                <reservations>
+                  <org.designpattern.abstractfactory.xml.PersistableReservation reference="../../../../../../.."/>
+                  <org.designpattern.abstractfactory.xml.PersistableReservation reference="../../.."/>
+                </reservations>
+              </owner>
+              <dr class="ch.bfh.ti.daterange.impl.pojo.DateRangeImpl">
+                <start>2019-11-21 12:38:32.922 UTC</start>
+                <finish>2019-11-21 12:43:32.922 UTC</finish>
+              </dr>
+            </org.designpattern.abstractfactory.xml.PersistableReservation>
+          </reservations>
+        </org.designpattern.abstractfactory.xml.PersistableResource>
+      </resources>
+      <owner class="org.designpattern.abstractfactory.xml.PersistablePerson" reference="../resources/org.designpattern.abstractfactory.xml.PersistableResource/reservations/org.designpattern.abstractfactory.xml.PersistableReservation[2]/owner"/>
+      <dr class="ch.bfh.ti.daterange.impl.pojo.DateRangeImpl">
+        <start>2019-11-21 12:35:12.922 UTC</start>
+        <finish>2019-11-21 12:36:52.922 UTC</finish>
+      </dr>
+    </org.designpattern.abstractfactory.xml.PersistableReservation>
+    <org.designpattern.abstractfactory.xml.PersistableReservation reference="../../persons/org.designpattern.abstractfactory.xml.PersistablePerson/reservations/org.designpattern.abstractfactory.xml.PersistableReservation"/>
+    <org.designpattern.abstractfactory.xml.PersistableReservation reference="../../persons/org.designpattern.abstractfactory.xml.PersistablePerson[2]/reservations/org.designpattern.abstractfactory.xml.PersistableReservation"/>
+    <org.designpattern.abstractfactory.xml.PersistableReservation reference="../org.designpattern.abstractfactory.xml.PersistableReservation[4]/resources/org.designpattern.abstractfactory.xml.PersistableResource/reservations/org.designpattern.abstractfactory.xml.PersistableReservation[2]"/>
+    <org.designpattern.abstractfactory.xml.PersistableReservation>
+      <resources class="singleton-set">
+        <org.designpattern.abstractfactory.xml.PersistableResource>
+          <name>Test_Room_68</name>
+          <reservations>
+            <org.designpattern.abstractfactory.xml.PersistableReservation reference="../../../.."/>
+          </reservations>
+        </org.designpattern.abstractfactory.xml.PersistableResource>
+      </resources>
+      <owner class="org.designpattern.abstractfactory.xml.PersistablePerson">
+        <name>Kent_Beck_55</name>
+        <reservations>
+          <org.designpattern.abstractfactory.xml.PersistableReservation reference="../../.."/>
+        </reservations>
+      </owner>
+      <dr class="ch.bfh.ti.daterange.impl.pojo.DateRangeImpl">
+        <start>2019-11-21 12:35:12.914 UTC</start>
+        <finish>2019-11-21 12:36:52.914 UTC</finish>
+      </dr>
+    </org.designpattern.abstractfactory.xml.PersistableReservation>
+  </reservations>
+</org.designpattern.abstractfactory.xml.PersistenceManagerUsingXStream_-PersistedData>
